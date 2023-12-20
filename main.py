@@ -1,6 +1,6 @@
 import logging
 
-from exchanges.nobitex import NobitexClient
+from exchanges.binance import BinanceClient
 
 
 logger = logging.getLogger()
@@ -23,4 +23,4 @@ logger.addHandler(file_handler)
 
 if __name__ == "__main__":
     mode = input("Choose the program mode (data / backtest / optimize): ").lower()
-    client =  NobitexClient()
+    client =  BinanceClient(True)
