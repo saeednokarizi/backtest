@@ -1,6 +1,6 @@
 import logging
 
-from exchanges.binance import BinanceClient
+from exchanges.bybit import BybitClient
 
 
 logger = logging.getLogger()
@@ -23,4 +23,5 @@ logger.addHandler(file_handler)
 
 if __name__ == "__main__":
     mode = input("Choose the program mode (data / backtest / optimize): ").lower()
-    client =  BinanceClient(True)
+    client =  BybitClient()
+    #print(client.get_historical_data("BTCUSDT"))

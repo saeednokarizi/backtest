@@ -37,3 +37,33 @@
 2023-12-21 02:24:21,819 ERROR :: Connection Error while making request to /api/v3/exchangeInfo: 'BinanceClient' object has no attribute 'session'
 2023-12-21 02:26:13,186 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
 2023-12-21 02:26:13,186 ERROR :: Connection Error while making request to /api/v3/exchangeInfo: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max retries exceeded with url: /api/v3/exchangeInfo (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f19cdb56470>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2023-12-23 14:31:58,562 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2023-12-23 14:32:01,860 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 404 None
+2023-12-23 14:33:42,430 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2023-12-23 14:33:44,403 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 404 None
+2023-12-23 14:44:08,303 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2023-12-23 14:44:10,212 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 404 None
+2023-12-23 14:44:24,110 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2023-12-23 14:44:26,018 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 404 None
+2023-12-23 14:57:25,041 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-23 14:57:35,047 ERROR :: Connection Error while making request to /api/v3/exchangeInfo: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/exchangeInfo (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f2923f7ac50>: Failed to resolve 'api.binance.com' ([Errno -3] Temporary failure in name resolution)"))
+2023-12-23 15:00:02,028 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-23 15:00:08,556 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 142841
+2023-12-23 16:03:31,834 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-23 16:03:41,845 ERROR :: Connection Error while making request to /api/v3/exchangeInfo: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/exchangeInfo (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f884e9b2c50>: Failed to resolve 'api.binance.com' ([Errno -3] Temporary failure in name resolution)"))
+2023-12-23 16:09:07,462 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-23 16:09:09,216 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 142841
+2023-12-23 16:17:57,520 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-23 16:17:58,973 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 142841
+2023-12-23 16:19:32,817 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-23 16:19:33,847 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 142841
+2023-12-23 16:26:27,900 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-23 16:26:37,911 ERROR :: Connection Error while making request to /v2/public/symbols: HTTPSConnectionPool(host='api.bybit.com', port=443): Max retries exceeded with url: /v2/public/symbols (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fd194646d40>: Failed to resolve 'api.bybit.com' ([Errno -3] Temporary failure in name resolution)"))
+2023-12-23 16:30:17,054 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-23 16:30:27,065 ERROR :: Connection Error while making request to /v2/public/symbols: HTTPSConnectionPool(host='api.bybit.com', port=443): Max retries exceeded with url: /v2/public/symbols (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f47bb33ad40>: Failed to resolve 'api.bybit.com' ([Errno -3] Temporary failure in name resolution)"))
+2023-12-23 16:35:11,392 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-23 16:35:12,310 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 None
+2023-12-23 20:52:11,300 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-23 20:52:12,714 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 142841
+2023-12-23 21:08:14,548 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-23 21:08:15,608 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 None
