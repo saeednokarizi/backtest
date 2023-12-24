@@ -11,6 +11,8 @@ class BybitClient:
     def __init__(self):
         self._base_url = "https://api.bybit.com"
         self.symbols = self._get_symbols()
+        if self.symbols is None:
+            self.symbols = []
 
     def _make_requests(self, endpoint: str, query_parameters: dict=None):
         if query_parameters is None:
@@ -19,6 +21,7 @@ class BybitClient:
             response = requests.get(self._base_url + endpoint, params=query_parameters)
             response.raise_for_status()
         except Exception as e:
+            print(f"Exception when making request to {endpoint}: {e}")  # Add this line
             logger.error("Connection Error while making request to %s: %s", endpoint, e)
             return None
 
@@ -27,20 +30,31 @@ class BybitClient:
         except ValueError:
             logger.error("Error decoding JSON response from %s: %s", endpoint, response.text)
             return None
-
+'''
     def _get_symbols(self) -> List[str]:
         endpoint = "/v2/public/symbols"
         data = self._make_requests(endpoint)
 
+        print(f"Data from {endpoint}: {data}")  # Add this line
         #print("Full data response:", data)  # Print the full data response
+
+        if data is not None and 'result' in data:
+            symbols = [x["name"] for x in data["result"]["list"] if "name" in x]
+
+        else:
+            #print("No data received from the endpoint.")
+            return []
+'''
+def _get_symbols(self) -> List[str]:
+        endpoint = "/v2/public/symbols"
+        data = self._make_requests(endpoint)
 
         if data is not None and 'result' in data:
             symbols = [x["name"] for x in data["result"] if "name" in x]
         else:
-            #print("No data received from the endpoint.")
             return []
 
-
+        return symbols
             
     def get_historical_data(self, symbol: str, start_time: Optional[int] = None, end_time: Optional[int] = None, category: str = 'inverse'):
         params = dict()

@@ -2,7 +2,7 @@ from typing import *
 import logging
 
 import requests
-import dateutil.parser
+
 from datetime import datetime
 
 
@@ -16,17 +16,20 @@ class BybitClient:
 
         self.symbols = self._get_symbols()
 
-    def _make_request(self, endpoint: str, query_parameters: Dict):
+    def _make_requests(self, endpoint: str, query_parameters: Dict):
 
         try:
             response = requests.get(self._base_url + endpoint, params=query_parameters)
+            print(response.status_code)  # Print the status code
+            print(response.json())  # Print the response data
         except Exception as e:
             logger.error("Connection error while making request to %s: %s", endpoint, e)
             return None
 
         if response.status_code == 200:
             json_response = response.json()
-            if "retMsg" in json_response and json_response["retMsg"] == "OK":
+            print(json_response)  # Add this line
+            if "ret_msg" in json_response and json_response["ret_msg"] == "OK":
                 return json_response["result"]
             else:
                 logger.error("Error while making request to %s: %s (status code = %s)",
@@ -38,15 +41,16 @@ class BybitClient:
             return None
 
     def _get_symbols(self) -> List[str]:
-
-        params = dict()
-
         endpoint = "/v2/public/symbols"
-        data = self._make_request(endpoint,{})
-        #symbols = [x["name"] for x in data["result"] if "name" in x]
-        if data is not None:
-            symbols = [x["name"] for x in data]
-            return symbols
+        data = self._make_requests(endpoint, None)
+
+        if data is not None and 'result' in data:
+            symbols = [x["name"] for x in data["result"] if "name" in x]
+        else:
+            return []
+
+        return symbols
+      
 
     def get_historical_data(self, symbol: str, start_time: Optional[int] = None, end_time: Optional[int] = None, category: str = 'inverse'):
         
@@ -70,15 +74,10 @@ class BybitClient:
         if raw_candles is not None:
             for c in raw_candles['list']:
                 ts = datetime.fromtimestamp(int(c[0]) / 1000)
-                candles.append((ts, float(c[1]), float(c[2]), float(c[3]), float(c[4]), float(c[5]),))
+                ts_millis = int(round(ts.timestamp() * 1000))
+                candles.append((ts_millis, float(c[1]), float(c[2]), float(c[3]), float(c[4]), float(c[5]),))
             
             return candles
         else:
             return None
-
-
-
-
-
-
-
+            

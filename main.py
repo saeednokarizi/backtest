@@ -32,9 +32,18 @@ if __name__ == "__main__":
 
     if exchange == "binance":
         client = BinanceClient()
-        #print(client.get_historical_data("BTCUSDT"))
+        
     elif exchange == "bybit":
         client = BybitClient()
-        #print(client.get_historical_data("BTCUSDT"))
-    print(client.get_historical_data("BTCUSDT"))   
 
+    if not client.symbols:
+        print("Error: No symbols found.")
+        exit(1)
+    #print(client.symbols)  # Add this line
+        
+    #print(client.get_historical_data("BTCUSDT"))   
+
+    while True:
+        symbol = input("choose a symbol: ").upper()
+        if symbol in client.symbols :
+            break

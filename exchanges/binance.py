@@ -70,9 +70,3 @@ class BinanceClient:
         else:
             return None
 
-
-
-
-
-
-
