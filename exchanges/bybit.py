@@ -54,7 +54,7 @@ class BybitClient:
         if end_time is not None:
             params["end"] = end_time
 
-        print(f"Fetching data for {symbol} from {start_time} to {end_time}")
+        #print(f"Fetching data for {symbol} from {start_time} to {end_time}")
 
         endpoint = "/v5/market/kline"
         raw_candles = self._make_requests(endpoint, params)

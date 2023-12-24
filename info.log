@@ -118,3 +118,314 @@
 2023-12-25 01:18:02,269 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
 2023-12-25 01:18:03,287 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703454422267 HTTP/1.1" 200 79126
 2023-12-25 01:18:03,500 INFO :: bybit BTCUSDT: Collected 1000 initial data from 2023-12-24 21:47:00 to 2023-12-24 05:08:00
+2023-12-25 01:27:28,243 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 01:27:29,274 DEBUG :: https://api.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 200 92166
+2023-12-25 01:27:33,657 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 01:27:35,028 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703454993656 HTTP/1.1" 200 47286
+2023-12-25 01:27:35,250 INFO :: binance BTCUSDT: Collected 1000 initial data from 2023-12-24 05:17:00 to 2023-12-24 21:56:00
+2023-12-25 01:28:17,322 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 01:28:18,308 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 142841
+2023-12-25 01:28:21,841 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 01:28:22,946 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703455041839 HTTP/1.1" 200 79124
+2023-12-25 01:28:23,170 INFO :: bybit BTCUSDT: Collected 1000 initial data from 2023-12-24 21:57:00 to 2023-12-24 05:18:00
+2023-12-25 01:30:15,573 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 01:30:16,625 DEBUG :: https://api.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 200 92683
+2023-12-25 01:30:22,126 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 01:30:22,998 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=ETHUSDT&interval=1m&limit=1500&endTime=1703455162124 HTTP/1.1" 200 46415
+2023-12-25 01:30:23,127 INFO :: binance ETHUSDT: Collected 1000 initial data from 2023-12-24 05:20:00 to 2023-12-24 21:59:00
+2023-12-25 01:31:41,575 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 01:31:42,845 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 142841
+2023-12-25 01:31:49,342 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 01:31:50,518 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=ETHUSDT&interval=1&limit=1000&category=inverse&end=1703455249340 HTTP/1.1" 200 79633
+2023-12-25 01:31:50,942 INFO :: bybit ETHUSDT: Collected 1000 initial data from 2023-12-24 22:00:00 to 2023-12-24 05:21:00
+2023-12-25 01:32:23,058 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 01:32:24,400 DEBUG :: https://api.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 200 93168
+2023-12-25 01:32:30,866 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 01:32:32,095 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=ETHUSDT&interval=1m&limit=1500&endTime=1703455290865 HTTP/1.1" 200 46407
+2023-12-25 01:32:32,625 INFO :: binance ETHUSDT: Collected 1000 initial data from 2023-12-24 05:22:00 to 2023-12-24 22:01:00
+2023-12-25 01:48:49,640 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 01:48:51,508 DEBUG :: https://api.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 200 93174
+2023-12-25 01:48:58,893 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 01:48:59,841 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703456278892 HTTP/1.1" 200 47245
+2023-12-25 01:49:00,014 INFO :: binance BTCUSDT: Collected 1000 initial data from 2023-12-24 09:08:00+03:30 to 2023-12-25 01:47:00+03:30
+2023-12-25 01:49:32,784 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 01:49:34,357 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 142841
+2023-12-25 01:49:40,371 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 01:49:41,343 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703456320368 HTTP/1.1" 200 79119
+2023-12-25 01:49:41,803 INFO :: bybit BTCUSDT: Collected 1000 initial data from 2023-12-25 01:48:00+03:30 to 2023-12-24 09:09:00+03:30
+2023-12-25 01:54:10,029 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 01:54:11,147 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 142841
+2023-12-25 01:54:17,276 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 01:54:18,437 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703456597274 HTTP/1.1" 200 79119
+2023-12-25 01:54:18,685 INFO :: bybit BTCUSDT: Collected 1000 initial data from 2023-12-24 09:14:00+03:30 to 2023-12-25 01:53:00+03:30
+2023-12-25 01:54:37,949 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 01:54:39,458 DEBUG :: https://api.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 200 93176
+2023-12-25 01:54:43,477 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 01:54:44,486 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703456623476 HTTP/1.1" 200 47261
+2023-12-25 01:54:44,668 INFO :: binance BTCUSDT: Collected 1000 initial data from 2023-12-24 09:14:00+03:30 to 2023-12-25 01:53:00+03:30
+2023-12-25 02:14:43,336 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:14:44,436 DEBUG :: https://api.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 200 93174
+2023-12-25 02:14:49,967 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:14:50,883 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703457829966 HTTP/1.1" 200 47270
+2023-12-25 02:14:51,170 INFO :: binance BTCUSDT: Collected 1000 initial data from 2023-12-24 09:34:00+03:30 to 2023-12-25 02:13:00+03:30
+2023-12-25 02:14:51,172 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:14:52,062 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&startTime=1703457840000 HTTP/1.1" 200 174
+2023-12-25 02:14:52,065 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:14:52,968 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703397780000 HTTP/1.1" 200 46887
+2023-12-25 02:14:53,097 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-23 16:54:00+03:30 to 2023-12-24 09:32:00+03:30
+2023-12-25 02:14:54,200 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:14:55,379 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703337780000 HTTP/1.1" 200 47597
+2023-12-25 02:14:55,601 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-23 00:14:00+03:30 to 2023-12-23 16:52:00+03:30
+2023-12-25 02:14:56,703 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:14:57,629 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703277780000 HTTP/1.1" 200 49991
+2023-12-25 02:14:57,922 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-22 07:34:00+03:30 to 2023-12-23 00:12:00+03:30
+2023-12-25 02:14:59,026 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:00,236 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703217780000 HTTP/1.1" 200 50223
+2023-12-25 02:15:00,455 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-21 14:54:00+03:30 to 2023-12-22 07:32:00+03:30
+2023-12-25 02:15:01,559 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:02,912 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703157780000 HTTP/1.1" 200 50027
+2023-12-25 02:15:03,113 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-20 22:14:00+03:30 to 2023-12-21 14:52:00+03:30
+2023-12-25 02:15:04,215 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:05,119 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703097780000 HTTP/1.1" 200 50756
+2023-12-25 02:15:05,271 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-20 05:34:00+03:30 to 2023-12-20 22:12:00+03:30
+2023-12-25 02:15:06,374 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:07,273 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703037780000 HTTP/1.1" 200 50354
+2023-12-25 02:15:07,440 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-19 12:54:00+03:30 to 2023-12-20 05:32:00+03:30
+2023-12-25 02:15:08,543 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:09,455 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1702977780000 HTTP/1.1" 200 50303
+2023-12-25 02:15:09,634 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-18 20:14:00+03:30 to 2023-12-19 12:52:00+03:30
+2023-12-25 02:15:10,738 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:11,944 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1702917780000 HTTP/1.1" 200 50828
+2023-12-25 02:15:12,169 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-18 03:34:00+03:30 to 2023-12-18 20:12:00+03:30
+2023-12-25 02:15:13,272 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:14,281 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1702857780000 HTTP/1.1" 200 49263
+2023-12-25 02:15:14,502 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-17 10:54:00+03:30 to 2023-12-18 03:32:00+03:30
+2023-12-25 02:15:15,605 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:16,536 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1702797780000 HTTP/1.1" 200 48926
+2023-12-25 02:15:16,664 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-16 18:14:00+03:30 to 2023-12-17 10:52:00+03:30
+2023-12-25 02:15:17,768 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:18,834 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1702737780000 HTTP/1.1" 200 48567
+2023-12-25 02:15:18,980 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-16 01:34:00+03:30 to 2023-12-16 18:12:00+03:30
+2023-12-25 02:15:20,084 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:21,715 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1702677780000 HTTP/1.1" 200 50045
+2023-12-25 02:15:21,944 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-15 08:54:00+03:30 to 2023-12-16 01:32:00+03:30
+2023-12-25 02:15:23,046 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:23,969 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1702617780000 HTTP/1.1" 200 50297
+2023-12-25 02:15:24,426 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-14 16:14:00+03:30 to 2023-12-15 08:52:00+03:30
+2023-12-25 02:15:25,529 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:26,609 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1702557780000 HTTP/1.1" 200 50036
+2023-12-25 02:15:26,844 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-13 23:34:00+03:30 to 2023-12-14 16:12:00+03:30
+2023-12-25 02:15:27,947 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:28,922 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1702497780000 HTTP/1.1" 200 50455
+2023-12-25 02:15:29,063 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-13 06:54:00+03:30 to 2023-12-13 23:32:00+03:30
+2023-12-25 02:15:30,167 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:32,010 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1702437780000 HTTP/1.1" 200 50736
+2023-12-25 02:15:32,237 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-12 14:14:00+03:30 to 2023-12-13 06:52:00+03:30
+2023-12-25 02:15:33,340 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:34,455 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1702377780000 HTTP/1.1" 200 50706
+2023-12-25 02:15:34,622 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-11 21:34:00+03:30 to 2023-12-12 14:12:00+03:30
+2023-12-25 02:15:35,725 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:36,669 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1702317780000 HTTP/1.1" 200 51406
+2023-12-25 02:15:37,146 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-11 04:54:00+03:30 to 2023-12-11 21:32:00+03:30
+2023-12-25 02:15:38,250 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:39,228 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1702257780000 HTTP/1.1" 200 47161
+2023-12-25 02:15:39,389 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-10 12:14:00+03:30 to 2023-12-11 04:52:00+03:30
+2023-12-25 02:15:40,491 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:41,427 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1702197780000 HTTP/1.1" 200 46420
+2023-12-25 02:15:41,566 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-09 19:34:00+03:30 to 2023-12-10 12:12:00+03:30
+2023-12-25 02:15:42,669 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:43,588 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1702137780000 HTTP/1.1" 200 48283
+2023-12-25 02:15:43,763 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-09 02:54:00+03:30 to 2023-12-09 19:32:00+03:30
+2023-12-25 02:15:44,867 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:45,927 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1702077780000 HTTP/1.1" 200 49922
+2023-12-25 02:15:46,092 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-08 10:14:00+03:30 to 2023-12-09 02:52:00+03:30
+2023-12-25 02:15:47,194 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:48,059 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1702017780000 HTTP/1.1" 200 49545
+2023-12-25 02:15:48,320 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-07 17:34:00+03:30 to 2023-12-08 10:12:00+03:30
+2023-12-25 02:15:49,422 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:50,326 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1701957780000 HTTP/1.1" 200 49402
+2023-12-25 02:15:50,467 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-07 00:54:00+03:30 to 2023-12-07 17:32:00+03:30
+2023-12-25 02:15:51,570 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:52,484 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1701897780000 HTTP/1.1" 200 51071
+2023-12-25 02:15:52,668 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-06 08:14:00+03:30 to 2023-12-07 00:52:00+03:30
+2023-12-25 02:15:53,771 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:15:54,680 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1701837780000 HTTP/1.1" 200 51840
+2023-12-25 02:15:55,140 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-05 15:34:00+03:30 to 2023-12-06 08:12:00+03:30
+2023-12-25 02:18:18,667 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:18:19,659 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 142841
+2023-12-25 02:18:24,778 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:18:25,845 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703458044776 HTTP/1.1" 200 79155
+2023-12-25 02:18:26,110 INFO :: bybit BTCUSDT: Collected 1000 initial data from 2023-12-24 09:38:00+03:30 to 2023-12-25 02:17:00+03:30
+2023-12-25 02:18:26,113 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:18:26,963 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&start=1703458080000 HTTP/1.1" 200 200
+2023-12-25 02:18:26,967 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:18:28,357 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703398020000 HTTP/1.1" 200 79016
+2023-12-25 02:18:28,595 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 09:37:00+03:30 to 2023-12-23 16:59:00+03:30
+2023-12-25 02:18:29,698 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:18:31,008 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703397960000 HTTP/1.1" 200 79019
+2023-12-25 02:18:31,443 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 09:36:00+03:30 to 2023-12-23 16:58:00+03:30
+2023-12-25 02:18:32,547 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:18:33,391 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703397900000 HTTP/1.1" 200 79025
+2023-12-25 02:18:33,792 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 09:35:00+03:30 to 2023-12-23 16:57:00+03:30
+2023-12-25 02:18:34,896 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:18:35,781 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703397840000 HTTP/1.1" 200 79023
+2023-12-25 02:18:36,199 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 09:34:00+03:30 to 2023-12-23 16:56:00+03:30
+2023-12-25 02:18:37,302 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:18:38,346 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703397780000 HTTP/1.1" 200 79026
+2023-12-25 02:18:38,564 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 09:33:00+03:30 to 2023-12-23 16:55:00+03:30
+2023-12-25 02:18:39,667 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:18:40,849 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703397720000 HTTP/1.1" 200 79025
+2023-12-25 02:18:41,274 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 09:32:00+03:30 to 2023-12-23 16:54:00+03:30
+2023-12-25 02:18:42,377 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:18:43,885 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703397660000 HTTP/1.1" 200 79022
+2023-12-25 02:18:44,320 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 09:31:00+03:30 to 2023-12-23 16:53:00+03:30
+2023-12-25 02:18:45,423 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:18:46,266 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703397600000 HTTP/1.1" 200 79019
+2023-12-25 02:18:46,666 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 09:30:00+03:30 to 2023-12-23 16:52:00+03:30
+2023-12-25 02:18:47,769 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:18:48,939 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703397540000 HTTP/1.1" 200 79018
+2023-12-25 02:18:49,347 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 09:29:00+03:30 to 2023-12-23 16:51:00+03:30
+2023-12-25 02:18:50,450 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:18:51,771 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703397480000 HTTP/1.1" 200 79020
+2023-12-25 02:18:52,201 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 09:28:00+03:30 to 2023-12-23 16:50:00+03:30
+2023-12-25 02:18:53,305 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:42:46,766 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:42:47,774 DEBUG :: https://api.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 200 93070
+2023-12-25 02:43:07,642 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:43:09,122 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 142841
+2023-12-25 02:53:09,138 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:53:10,197 DEBUG :: https://api.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 200 93072
+2023-12-25 02:53:16,163 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:53:17,069 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703460136162 HTTP/1.1" 200 47382
+2023-12-25 02:53:17,260 INFO :: binance BTCUSDT: Collected 1000 initial data from 2023-12-24 10:13:00+03:30 to 2023-12-25 02:52:00+03:30
+2023-12-25 02:53:17,262 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:53:18,588 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&startTime=1703460180000 HTTP/1.1" 200 169
+2023-12-25 02:53:18,593 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:53:19,647 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703400120000 HTTP/1.1" 200 46989
+2023-12-25 02:53:19,756 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-23 17:33:00+03:30 to 2023-12-24 10:11:00+03:30
+2023-12-25 02:53:20,860 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:53:22,254 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703340120000 HTTP/1.1" 200 47457
+2023-12-25 02:53:22,486 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-23 00:53:00+03:30 to 2023-12-23 17:31:00+03:30
+2023-12-25 02:53:23,590 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:53:24,607 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703280120000 HTTP/1.1" 200 50017
+2023-12-25 02:53:24,807 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-22 08:13:00+03:30 to 2023-12-23 00:51:00+03:30
+2023-12-25 02:53:25,910 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:53:26,812 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703220120000 HTTP/1.1" 200 50129
+2023-12-25 02:53:27,103 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-21 15:33:00+03:30 to 2023-12-22 08:11:00+03:30
+2023-12-25 02:53:44,794 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:53:46,099 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 142841
+2023-12-25 02:53:51,011 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:53:51,846 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703460171010 HTTP/1.1" 200 79186
+2023-12-25 02:53:52,312 INFO :: bybit BTCUSDT: Collected 1000 initial data from 2023-12-24 10:13:00+03:30 to 2023-12-25 02:52:00+03:30
+2023-12-25 02:53:52,314 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:53:53,152 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&start=1703460180000 HTTP/1.1" 200 206
+2023-12-25 02:53:53,156 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:53:54,399 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703400120000 HTTP/1.1" 200 79026
+2023-12-25 02:53:54,624 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:12:00+03:30 to 2023-12-23 17:34:00+03:30
+2023-12-25 02:53:55,726 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:53:56,599 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703400060000 HTTP/1.1" 200 None
+2023-12-25 02:53:56,710 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:11:00+03:30 to 2023-12-23 17:33:00+03:30
+2023-12-25 02:53:57,813 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:53:59,715 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703400000000 HTTP/1.1" 200 79026
+2023-12-25 02:53:59,930 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:10:00+03:30 to 2023-12-23 17:32:00+03:30
+2023-12-25 02:54:01,033 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:54:03,727 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703399940000 HTTP/1.1" 200 79025
+2023-12-25 02:54:04,601 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:09:00+03:30 to 2023-12-23 17:31:00+03:30
+2023-12-25 02:54:05,704 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:54:07,823 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703399880000 HTTP/1.1" 200 79022
+2023-12-25 02:54:08,704 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:08:00+03:30 to 2023-12-23 17:30:00+03:30
+2023-12-25 02:54:09,807 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:54:13,641 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703399820000 HTTP/1.1" 200 79021
+2023-12-25 02:54:13,863 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:07:00+03:30 to 2023-12-23 17:29:00+03:30
+2023-12-25 02:54:14,966 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:54:16,158 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703399760000 HTTP/1.1" 200 79018
+2023-12-25 02:54:16,554 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:06:00+03:30 to 2023-12-23 17:28:00+03:30
+2023-12-25 02:54:17,656 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:54:18,634 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703399700000 HTTP/1.1" 200 None
+2023-12-25 02:54:18,735 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:05:00+03:30 to 2023-12-23 17:27:00+03:30
+2023-12-25 02:54:19,838 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:54:20,904 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703399640000 HTTP/1.1" 200 79010
+2023-12-25 02:54:21,113 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:04:00+03:30 to 2023-12-23 17:26:00+03:30
+2023-12-25 02:54:22,217 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:54:23,499 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703399580000 HTTP/1.1" 200 79011
+2023-12-25 02:54:23,744 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:03:00+03:30 to 2023-12-23 17:25:00+03:30
+2023-12-25 02:54:24,848 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:54:25,748 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703399520000 HTTP/1.1" 200 79013
+2023-12-25 02:54:26,014 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:02:00+03:30 to 2023-12-23 17:24:00+03:30
+2023-12-25 02:54:27,119 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:54:27,977 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703399460000 HTTP/1.1" 200 79013
+2023-12-25 02:54:28,407 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:01:00+03:30 to 2023-12-23 17:23:00+03:30
+2023-12-25 02:54:29,510 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:54:30,399 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703399400000 HTTP/1.1" 200 79014
+2023-12-25 02:54:30,686 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:00:00+03:30 to 2023-12-23 17:22:00+03:30
+2023-12-25 02:54:31,789 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:54:33,191 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703399340000 HTTP/1.1" 200 79010
+2023-12-25 02:54:33,422 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 09:59:00+03:30 to 2023-12-23 17:21:00+03:30
+2023-12-25 02:54:34,525 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:54:35,936 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703399280000 HTTP/1.1" 200 79011
+2023-12-25 02:54:36,826 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 09:58:00+03:30 to 2023-12-23 17:20:00+03:30
+2023-12-25 02:54:37,929 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:55:21,550 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:55:23,790 DEBUG :: https://api.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 200 93070
+2023-12-25 02:56:34,458 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:56:35,724 DEBUG :: https://api.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 200 93076
+2023-12-25 02:56:40,993 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:56:42,194 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703460340992 HTTP/1.1" 200 47373
+2023-12-25 02:56:42,398 INFO :: binance BTCUSDT: Collected 1000 initial data from 2023-12-24 10:16:00+03:30 to 2023-12-25 02:55:00+03:30
+2023-12-25 02:56:42,400 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:56:43,809 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&startTime=1703460360000 HTTP/1.1" 200 171
+2023-12-25 02:56:43,812 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:56:45,587 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703400300000 HTTP/1.1" 200 46984
+2023-12-25 02:56:45,777 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-23 17:36:00+03:30 to 2023-12-24 10:14:00+03:30
+2023-12-25 02:56:46,879 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:56:48,645 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703340300000 HTTP/1.1" 200 47458
+2023-12-25 02:56:48,757 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-23 00:56:00+03:30 to 2023-12-23 17:34:00+03:30
+2023-12-25 02:56:49,860 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:56:52,018 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703280300000 HTTP/1.1" 200 50014
+2023-12-25 02:56:52,693 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-22 08:16:00+03:30 to 2023-12-23 00:54:00+03:30
+2023-12-25 02:56:53,797 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:56:54,770 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703220300000 HTTP/1.1" 200 50136
+2023-12-25 02:56:54,924 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-21 15:36:00+03:30 to 2023-12-22 08:14:00+03:30
+2023-12-25 02:56:56,027 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:56:57,006 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703160300000 HTTP/1.1" 200 49985
+2023-12-25 02:56:57,725 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-20 22:56:00+03:30 to 2023-12-21 15:34:00+03:30
+2023-12-25 02:56:58,829 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-25 02:57:00,436 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1500&endTime=1703100300000 HTTP/1.1" 200 50823
+2023-12-25 02:57:00,873 INFO :: binance BTCUSDT: Collected 999 older data from 2023-12-20 06:16:00+03:30 to 2023-12-20 22:54:00+03:30
+2023-12-25 02:58:18,241 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:58:19,424 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 142841
+2023-12-25 02:58:25,328 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:58:26,977 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703460445325 HTTP/1.1" 200 79191
+2023-12-25 02:58:27,230 INFO :: bybit BTCUSDT: Collected 1000 initial data from 2023-12-24 10:18:00+03:30 to 2023-12-25 02:57:00+03:30
+2023-12-25 02:58:27,233 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:58:28,281 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&start=1703460480000 HTTP/1.1" 200 204
+2023-12-25 02:58:28,285 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:58:29,143 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703400420000 HTTP/1.1" 200 79028
+2023-12-25 02:58:29,354 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:17:00+03:30 to 2023-12-23 17:39:00+03:30
+2023-12-25 02:58:30,457 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:58:31,294 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703400360000 HTTP/1.1" 200 79029
+2023-12-25 02:58:31,485 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:16:00+03:30 to 2023-12-23 17:38:00+03:30
+2023-12-25 02:58:32,588 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 02:58:34,774 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703400300000 HTTP/1.1" 200 79023
+2023-12-25 02:58:34,967 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:15:00+03:30 to 2023-12-23 17:37:00+03:30
+2023-12-25 03:03:46,866 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 03:03:47,882 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 142841
+2023-12-25 03:03:52,960 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 03:03:54,406 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703460772958 HTTP/1.1" 200 79202
+2023-12-25 03:03:54,671 INFO :: bybit BTCUSDT: Collected 1000 initial data from 2023-12-24 10:23:00+03:30 to 2023-12-25 03:02:00+03:30
+2023-12-25 03:03:54,673 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 03:03:55,498 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&start=1703460780000 HTTP/1.1" 200 203
+2023-12-25 03:03:55,503 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 03:03:56,658 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703400720000 HTTP/1.1" 200 79033
+2023-12-25 03:03:56,866 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:22:00+03:30 to 2023-12-23 17:44:00+03:30
+2023-12-25 03:03:57,969 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 03:03:59,258 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703400660000 HTTP/1.1" 200 None
+2023-12-25 03:03:59,608 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:21:00+03:30 to 2023-12-23 17:43:00+03:30
+2023-12-25 03:04:00,710 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 03:04:01,815 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703400600000 HTTP/1.1" 200 79043
+2023-12-25 03:04:02,240 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:20:00+03:30 to 2023-12-23 17:42:00+03:30
+2023-12-25 03:04:03,343 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 03:04:05,597 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703400540000 HTTP/1.1" 200 79043
+2023-12-25 03:04:05,782 INFO :: bybit BTCUSDT: Collected 999 older data from 2023-12-24 10:19:00+03:30 to 2023-12-23 17:41:00+03:30
+2023-12-25 03:04:06,885 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-25 03:04:07,710 DEBUG :: https://api.bybit.com:443 "GET /v5/market/kline?symbol=BTCUSDT&interval=1&limit=1000&category=inverse&end=1703400480000 HTTP/1.1" 200 79036
