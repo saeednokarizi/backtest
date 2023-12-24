@@ -30,22 +30,8 @@ class BybitClient:
         except ValueError:
             logger.error("Error decoding JSON response from %s: %s", endpoint, response.text)
             return None
-'''
+
     def _get_symbols(self) -> List[str]:
-        endpoint = "/v2/public/symbols"
-        data = self._make_requests(endpoint)
-
-        print(f"Data from {endpoint}: {data}")  # Add this line
-        #print("Full data response:", data)  # Print the full data response
-
-        if data is not None and 'result' in data:
-            symbols = [x["name"] for x in data["result"]["list"] if "name" in x]
-
-        else:
-            #print("No data received from the endpoint.")
-            return []
-'''
-def _get_symbols(self) -> List[str]:
         endpoint = "/v2/public/symbols"
         data = self._make_requests(endpoint)
 

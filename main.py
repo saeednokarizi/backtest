@@ -1,8 +1,8 @@
 import logging
 
-#from exchanges.bybit import BybitClient
+from exchanges.bybit import BybitClient
 from exchanges.binance import BinanceClient
-from exchanges.bybit_advance import BybitClient
+#from exchanges.bybit_advance import BybitClient
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)

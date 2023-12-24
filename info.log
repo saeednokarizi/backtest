@@ -1,2 +1,10 @@
 2023-12-24 20:30:58,476 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
 2023-12-24 20:30:59,852 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 None
+2023-12-24 20:34:27,914 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-24 20:34:29,125 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 142841
+2023-12-24 20:34:42,476 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-24 20:34:43,623 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 142841
+2023-12-24 20:37:37,389 DEBUG :: Starting new HTTPS connection (1): api.bybit.com:443
+2023-12-24 20:37:38,896 DEBUG :: https://api.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 142841
+2023-12-24 20:37:54,140 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2023-12-24 20:37:55,304 DEBUG :: https://api.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 200 92134
