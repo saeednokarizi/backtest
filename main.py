@@ -1,5 +1,6 @@
 import logging
 
+from data_collector import collect_all
 from exchanges.bybit import BybitClient
 from exchanges.binance import BinanceClient
 #from exchanges.bybit_advance import BybitClient
@@ -47,3 +48,7 @@ if __name__ == "__main__":
         symbol = input("choose a symbol: ").upper()
         if symbol in client.symbols :
             break
+
+
+    if mode == "data" :
+        collect_all(client, exchange, symbol)
