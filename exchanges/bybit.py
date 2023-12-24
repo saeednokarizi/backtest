@@ -1,7 +1,7 @@
 from typing import *
 import logging
 
-
+from datetime import datetime
 import requests
 
 
@@ -21,7 +21,7 @@ class BybitClient:
             response = requests.get(self._base_url + endpoint, params=query_parameters)
             response.raise_for_status()
         except Exception as e:
-            print(f"Exception when making request to {endpoint}: {e}")  # Add this line
+            #print(f"Exception when making request to {endpoint}: {e}")  # Add this line
             logger.error("Connection Error while making request to %s: %s", endpoint, e)
             return None
 
@@ -45,7 +45,7 @@ class BybitClient:
     def get_historical_data(self, symbol: str, start_time: Optional[int] = None, end_time: Optional[int] = None, category: str = 'inverse'):
         params = dict()
         params["symbol"] = symbol
-        params["interval"] = 60
+        params["interval"] = 1
         params["limit"] = 1000
         params["category"] = category
 
@@ -58,13 +58,15 @@ class BybitClient:
 
         endpoint = "/v5/market/kline"
         raw_candles = self._make_requests(endpoint, params)
-        print("Raw candles:", raw_candles)  
+        #print("Raw candles:", raw_candles)  
 
         candles = []
 
         if raw_candles is not None:
             for c in raw_candles['result']['list']:
-                candles.append((float(c[1]), float(c[2]), float(c[3]), float(c[4]), float(c[5]), float(c[6])))
+                ts = datetime.fromtimestamp(int(c[0]) / 1000)
+                ts_millis = int(round(ts.timestamp() * 1000))
+                candles.append((ts_millis, float(c[1]), float(c[2]), float(c[3]), float(c[4]), float(c[5]), float(c[6])))
             return candles
         else:
             print(f"No data received for {symbol} from {start_time} to {end_time}")
